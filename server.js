@@ -28,7 +28,7 @@ const attractionsRouter = require('./routes/attractions');
 const contactRouter = require('./routes/contact');
 
 
-app.use('/attractions', attractionsRouter);
+app.use('/viewattractions', attractionsRouter);
 app.use('/contact', contactRouter);
 
 app.listen(port, () => {
